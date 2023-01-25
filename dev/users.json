@@ -1,0 +1,52 @@
+[
+	{
+		"username": "anonymousUser",
+		"hash": "",
+		"firstName": "Anonymous",
+		"lastName": "User",
+		"accessGroups": [
+			"loggedOutUsers"
+		]
+	},
+	{
+		"username": "edward",
+		"hash": "$2b$12$ALsZ5vFoKzjuBvHmEqoomOWzv764BBtNgZdOWJxyLk0oIll0TLAHu",
+		"firstName": "Edward",
+		"lastName": "Tanguay",
+		"accessGroups": [
+			"loggedInUsers",
+			"members",
+			"admins"
+		]
+	},
+	{
+		"username": "marina",
+		"hash": "$2b$12$WyBBpe9mZP6KEqVIePHrH.Y8Xx/WRlPviEWS2Oq0wmcqQGJBe20Qa",
+		"firstName": "Marina",
+		"lastName": "Merrybeller",
+		"accessGroups": [
+			"loggedInUsers",
+			"members"
+		]
+	},
+	{
+		"username": "victor",
+		"hash": "$2b$12$nuHTiOEKZ9NL0UstZJd3H.8ruiN2DuL32d/9PQk754NFjN1NXhoX.",
+		"firstName": "Victor",
+		"lastName": "Viceroy",
+		"accessGroups": [
+			"loggedInUsers",
+			"members"
+		]
+	},
+	{
+		"username": "miki",
+		"hash": "$2b$12$nQLzL21t2yxwn3fFrlvaI.76emOAQ1oIgpwvCE9kn8qn9Dxzzm2/.",
+		"firstName": "Miki",
+		"lastName": "Manred",
+		"accessGroups": [
+			"loggedInUsers",
+			"unapprovedMembers"
+		]
+	}
+]

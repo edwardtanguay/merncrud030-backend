@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import { Book } from './models/Book.js';
 import * as config from './config.js';
 import { IBook, INewBook } from './interfaces.js';
+import { User } from './models/User.js';
 
 mongoose.set('strictQuery', false);
 mongoose.connect(config.MONGODB_CONNECTION);
@@ -12,6 +13,12 @@ const decorateAndSanitizeBook = (docBook: any) => {
 		languageText: docBook.language.charAt(0).toUpperCase() + docBook.language.slice(1)
 	};
 	return book;
+}
+
+export const getUserHash = async (username: string) => {
+	const user = await User.findOne({ username });
+	console.log(user)
+	return user.hash;
 }
 
 export const getBooks = async () => {
